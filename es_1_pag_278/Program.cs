@@ -14,7 +14,7 @@ namespace es_1_pag_278
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine("Inserisci un numero: ");
-                int numero = int.Parse(Console.ReadLine());
+                int numero = int.Parse(Console.ReadLine()); 
                 if (numeri.Contains(numero))
                     copie.Add(numero);
                 numeri.Add(numero);
